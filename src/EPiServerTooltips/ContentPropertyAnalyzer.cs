@@ -61,7 +61,7 @@ namespace EPiServerTooltips
 
             // Skip if not IContent
             var classSymbol = (INamedTypeSymbol) context.SemanticModel.GetDeclaredSymbol(declaration.Parent);
-            if (IsDerivedFromInterface(classSymbol, EPiServerTypes.IContent) == false)
+            if (IsDerivedFromInterface(classSymbol, EPiServerTypes.IContentData) == false)
                 return;
 
             // Skip if ignored
