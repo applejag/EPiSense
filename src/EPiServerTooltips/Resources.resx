@@ -130,6 +130,7 @@
     <comment>The title of the diagnostic.</comment>
   </data>
   <data name="FixerTitle" xml:space="preserve">
-    <value />
+    <value>Fix property needing virtual</value>
+    <comment>Title of the Quick Fix command</comment>
   </data>
 </root>

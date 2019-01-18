@@ -40,7 +40,7 @@ namespace EPiServerTooltips
                 if (modifier.IsKind(SyntaxKind.VirtualKeyword) ||
                     modifier.IsKind(SyntaxKind.OverrideKeyword) ||
                     modifier.IsKind(SyntaxKind.AbstractKeyword) ||
-                    modifier.IsKind(SyntaxKind.PublicKeyword) ||
+                    !modifier.IsKind(SyntaxKind.PublicKeyword) ||
                     modifier.IsKind(SyntaxKind.StaticKeyword))
                     return;
             }

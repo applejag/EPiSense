@@ -89,7 +89,7 @@ namespace EPiServerTooltips {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Fix property needing virtual.
         /// </summary>
         public static string FixerTitle {
             get {
